@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    min-height: 601px;
+    position: relative;
+    float: left;
+    background-image: url("../img/main-image.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    float: left;
+    /* background-color: red; */
+    position: relative;
+}
+
+.img-bono{
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    top: 5px;
+    left: 30px;
+}
+
+.right-side-navbar{
+    width: 400px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    /* background-color: blue; */
+    top: 5px;
+    right: 0px;
+}
+
+.div-mail-info{
+    width: 150px;
+    height: 20px;
+    float: left;
+    /* background-color: white; */
+    position:absolute;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.div-phone-info{
+    width: 150px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 160px;
+    top: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.middle{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 65px;
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.middle-content{
+    width: 740px;
+    height: 370px;
+    position: relative;
+    left: 265px;
+    float: left;
+}
+
+.countdown{
+    width: 700px;
+    height: 155px;
+    float: left;
+}
+
+.clock-1{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer-1{
+    width: 100px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+
+.clock-2{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    left: 210px;
+    background-color: rgba(255, 255, 255, 0.01);
+}
+
+.timer-2{
+    width: 100px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+
+.clock-3{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    left: 210px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer-3{
+    width: 100px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+
+.clock-4{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    left: 370px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer-4{
+    width: 100px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+
+.clock-5{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    left: 530px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.timer-5{
+    width: 100px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+
+.middle-content-text{
+    width: 100%;
+    height: 130px;
+    float: left;
+    text-align: center;
+}
+
+.middle-content-text h1{
+    width: 560px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    font-size: 45px;
+}
+
+.middle-content-text p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 240px;
+}
+
+.div-sign-up{
+    width: 300px;
+    height: 50px;
+    float: left;
+    border-radius: 30px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.div-sign-up img{
+    width: 450px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.footer{
+    width: 100%;
+    height: 105px;
+    float: left;
+    position: relative;
+    top: 85px;
+}
+
+.icons{
+    width: 160px;
+    height: 55px;
+    float: left;
+    position: absolute;
+    left: 550px;
+    bottom: 0px;
+}
+
+.fb-icon{
+    width: 30px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    color: #c56d9f;
+}
+
+.twitter-icon{
+    width: 30px;
+    height: 40px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+    color: #c56d9f;
+}
+
+.pinterest-icon{
+    width: 30px;
+    height: 40px;
+    float: left;
+    margin: 10px 0px 0px 15px;
+    color: #c56d9f;
+}
+
+.instagram-icon{
+    width: 30px;
+    height: 40px;
+    float: left;
+    margin: 10px 0px 0px 15px;
+    color: #c56d9f;
+}
